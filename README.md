@@ -1,7 +1,7 @@
 These are a few simple examples of machine learning in Python.
-It has been put together on an expedited basis, so apologies in advance for any snafus.
+It has been put together on an expedited basis, so apologies in advance for any snafus.\n
 I have added Jupyter Notebook versions first, but will try and augment with flat Python script files in the future.
-To get started with Jupyter Notebook, using Anaconda is the easiest, and this is the place to go: http://jupyter.org/install.html
+To get started with Jupyter Notebook, using Anaconda is the easiest, and this is the place to go: http://jupyter.org/install.html.\n
 The Monty Hall file is a simulation of the paradox of the same name, and is an example of Bayesian inference at work.
 There is a great write up of the Monty Hall paradox on wikipedia: https://en.wikipedia.org/wiki/Monty_Hall_problem
 The TensorFlow file is an example using Google's artificial neural network platform.
