@@ -6,8 +6,7 @@ To get started with Jupyter Notebook, using Anaconda is the easiest,
 and <a href="http://jupyter.org/install.html">this is the place to go</a>.
 
 # Monty Hall - Bayesian Inference
-The Monty Hall file in this repo is a simulation of the paradox of the same name, 
-and is an example of Bayesian belief at work.
+This repo contains a [simulation](StevenRoosa/Machine-Learning-Examples-and-Information/monty_hall.ipynb) of the Monty Hall paradox. It is an example of Bayesian belief at work.
 There is a great write up of the Monty Hall paradox on <a href="https://en.wikipedia.org/wiki/Monty_Hall_problem">wikipedia</a>.
 
 # Neural Networks - TensorFlow
