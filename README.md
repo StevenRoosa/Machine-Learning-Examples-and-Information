@@ -20,7 +20,7 @@ Jupyter: `!$sed -i '/?/d' datafile.txt`
 Bash: `$sed -i 's/^[^,]*,//' datafile.txt`  
 Jupyter: `!$sed -i 's/^[^,]*,//' datafile.txt` 
 
-### Change target variable values for malignant (4) and benign (2) to 1 and 0, respectively:  
+### Change target variable values for malignant (4) and benign (2) to 1s and 0s, respectively:  
 Bash: `$sed -i 's/4$/1/' datafile.txt`  
 Jupyter: `!$sed -i 's/2$/0/' datafile.txt`  
 
