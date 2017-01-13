@@ -1,8 +1,5 @@
 # Background
-These are a few simple examples of machine learning in Python.
-It has been put together on an expedited basis, so apologies in advance for any snafus.
-I have added Jupyter Notebook versions first, but will try and augment with 
-flat Python script files in the future. 
+These are a few simple examples of machine learning in Python.  Still fleshing this out, so stay tuned.
 
 # Jupyter Notebook
 To get started with Jupyter Notebook, using Anaconda is the easiest, 
@@ -22,14 +19,15 @@ sed commands in the bash terminal.
   
 First, a command to remove all lines missing data, i.e. lines containing "?":  
 $sed -i '/?/d' datafile.txt  
+
 Second, a command to remove entry ID numbers:  
 $sed -i 's/^[^,]*,//' datafile.txt  
+
 Third, commands to change target variable values for malignant (4) and benign (2) to 1 and 0, respectively:  
 $sed -i 's/4$/1/' datafile.txt  
 $sed -i 's/2$/0/' datafile.txt  
 
-Finally, you will need to split the datset into a training and test dataset. To do this, you can open up the [TensorFlow workbench file in this repo](StevenRoosa/Machine-Learning-Examples-and-Information/tensorflow_workbench.ipynb).   
-
+Finally, you will need to split the datset into a training and test dataset. To do this, you can open up the [TensorFlow workbench file in this repo](StevenRoosa/Machine-Learning-Examples-and-Information/tensor_workbench.ipynb).  
 # K-Nearest Neighbor is Coming Soon...
 Adding K-Nearest Neighbor next ....
 
