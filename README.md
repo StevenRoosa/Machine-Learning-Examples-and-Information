@@ -26,8 +26,9 @@ Second, a command to remove entry ID numbers:
 $sed -i 's/^[^,]*,//' datafile.txt  
 Third, commands to change target variable values for malignant (4) and benign (2) to 1 and 0, respectively:  
 $sed -i 's/4$/1/' datafile.txt  
-$sed -i 's/2$/0/' datafile.txt
-Finally, you will need to split the datset into a training and test dataset. You can use   
+$sed -i 's/2$/0/' datafile.txt  
+
+Finally, you will need to split the datset into a training and test dataset. To do this, you can open up the [TensorFlow workbench file in this repo](StevenRoosa/Machine-Learning-Examples-and-Information/tensorflow_workbench.ipynb).   
 
 # K-Nearest Neighbor is Coming Soon...
 Adding K-Nearest Neighbor next ....
