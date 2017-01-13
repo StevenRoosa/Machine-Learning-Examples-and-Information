@@ -16,17 +16,17 @@ There is a great write up of the Monty Hall paradox on <a href="https://en.wikip
 # Neural Networks - TensorFlow
 The TensorFlow file in this repo is an example using Google's machine learning platform,
 specifically the neural network functionality.  The dataset comes from the classic breast
-biopsy dataset <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data">made available here</a>.  Prior to splitting the dataset into training and test
-files, first a few adjustments to the dataset are in order. You can use a couple of handy 
-sed commands in the bash terminal.
-First, a command to remove all lines missing data, i.e. lines containing "?":
-$sed -i '/?/d' datafile.txt
-Second, a command to remove entry ID numbers:
-$sed -i 's/^[^,]*,//' datafile.txt
-Third, commands to change target variable values for malignant (4) and benign (2) to 1 and 0, respectively:
-$sed -i 's/4$/1/' datafile.txt
-$sed -i 's/2$/0/' datafile.txt
-To get started on TensorFlow, the <a href="https://www.tensorflow.org/get_started/os_setup">documentation</a> is really good.
+biopsy dataset <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data">made available here</a>.  Prior to splitting the dataset into training and test  
+files, first a few adjustments to the dataset are in order. You can use a couple of handy   
+sed commands in the bash terminal.  
+First, a command to remove all lines missing data, i.e. lines containing "?":  
+$sed -i '/?/d' datafile.txt  
+Second, a command to remove entry ID numbers:  
+$sed -i 's/^[^,]*,//' datafile.txt  
+Third, commands to change target variable values for malignant (4) and benign (2) to 1 and 0, respectively:  
+$sed -i 's/4$/1/' datafile.txt  
+$sed -i 's/2$/0/' datafile.txt  
+To get started on TensorFlow, the <a href="https://www.tensorflow.org/get_started/os_setup">documentation</a> is really good.  
 
 # K-Nearest Neighbor is Coming Soon...
 Adding K-Nearest Neighbor next ....
