@@ -13,16 +13,16 @@ specifically the neural network functionality.  The dataset comes from the class
 biopsy dataset <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data">made available here</a>.  Prior to splitting the dataset into training and test files, a few adjustments to the dataset are necessary. You can use a couple of handy sed commands in the Bash terminal or just use Jupyter Notebook.
   
 #### Remove all lines with missing data, i.e. lines containing "?":  
-Bash: $sed -i '/?/d' datafile.txt  
-Jupyter: !$sed -i '/?/d' datafile.txt
+Bash: `$sed -i '/?/d' datafile.txt`  
+Jupyter: `!$sed -i '/?/d' datafile.txt`
 
 #### Remove index numbers:  
-Bash: $sed -i 's/^[^,]*,//' datafile.txt  
-Jupyter: !$sed -i 's/^[^,]*,//' datafile.txt 
+Bash: `$sed -i 's/^[^,]*,//' datafile.txt`  
+Jupyter: `!$sed -i 's/^[^,]*,//' datafile.txt` 
 
 #### Change target variable values for malignant (4) and benign (2) to 1 and 0, respectively:  
-Bash: $sed -i 's/4$/1/' datafile.txt  
-Jupyter: !$sed -i 's/2$/0/' datafile.txt  
+Bash: `$sed -i 's/4$/1/' datafile.txt`  
+Jupyter: `!$sed -i 's/2$/0/' datafile.txt`  
 
 #### Split dataset into training and test files
 Finally, you will need to split the datset into training and test datasets. To do this, you can, after making the noted modifications with sed, open up the [TensorFlow workbench file in this repo](StevenRoosa/Machine-Learning-Examples-and-Information/tensor_workbench.ipynb) and select your dataset.  Then walk through the boxes and execute them as described in the notebook.    
