@@ -28,9 +28,9 @@ Jupyter: `!sed -i 's/2$/0/' datafile.txt`
 You will need to split the datset into training and test datasets. To do this, you can, after making the noted modifications with sed, open up the [TensorFlow workbench file in this repo](StevenRoosa/Machine-Learning-Examples-and-Information/tensor_workbench.ipynb) and select your dataset.  Then walk through the boxes and execute them as described in the notebook.  
   
 ### Build the Model and Check Accuracy  
-Finally you can build the model and check for accuracy.  Run the [Python script](StevenRoosa/Machine-Learning-Examples-and-Information/breast_cancer_tf.py):
-Bash: `python3 breast_cancer_tf.py`
-Jupyter: (haven't checked running this in Jupyter, but it should work) `!python3 breast_cancer_tf.py`
+Finally you can build the model and check for accuracy.  Run the [Python script](StevenRoosa/Machine-Learning-Examples-and-Information/breast_cancer_tf.py):  
+Bash: `python3 breast_cancer_tf.py`  
+Jupyter: (haven't checked running this in Jupyter, but it should work) `!python3 breast_cancer_tf.py`  
   
 # K-Nearest Neighbor is Coming Soon...
 Adding K-Nearest Neighbor next ....
