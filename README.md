@@ -13,15 +13,15 @@ specifically the neural network functionality.  The dataset comes from the class
 biopsy dataset <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data">made available here</a>.  Prior to splitting the dataset into training and test files, a few adjustments to the dataset are necessary. You can use a couple of handy sed commands in the Bash terminal or just use Jupyter Notebook.
   
 ### Remove all lines with missing data, i.e. lines containing "?":  
-Bash: `$sed -i '/?/d' datafile.txt`  
+Bash: `$ sed -i '/?/d' datafile.txt`  
 Jupyter: `In [ ]: !sed -i '/?/d' datafile.txt`
 
 ### Remove index numbers: 
-Bash: `$sed -i 's/^[^,]*,//' datafile.txt`  
+Bash: `$ sed -i 's/^[^,]*,//' datafile.txt`  
 Jupyter: `In [ ]: !sed -i 's/^[^,]*,//' datafile.txt` 
 
 ### Change target variable values for malignant (4) and benign (2) to 1s and 0s, respectively:  
-Bash: `$sed -i 's/4$/1/' datafile.txt`  
+Bash: `$ sed -i 's/4$/1/' datafile.txt`  
 Jupyter: `In [ ]: !sed -i 's/2$/0/' datafile.txt`  
 
 ### Split dataset into training and test files
@@ -29,7 +29,7 @@ You will need to split the datset into training and test datasets. To do this, y
   
 ### Build the Model and Check Accuracy  
 Finally you can build the model and check for accuracy.  Run the [Python script](StevenRoosa/Machine-Learning-Examples-and-Information/breast_cancer_tf.py):  
-Bash: `$python3 breast_cancer_tf.py`  
+Bash: `$ python3 breast_cancer_tf.py`  
 Jupyter: (haven't checked running this alternatively in Jupyter, but it should work) `In [ ]: !python3 breast_cancer_tf.py`  
   
 # K-Nearest Neighbor is Coming Soon...
