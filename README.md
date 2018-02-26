@@ -40,8 +40,7 @@ For a great book on Machine Learning with Python, try <a href="https://www.amazo
 
 # Accountable Algorithms - Work of Dr. Josh Kroll et al.
 For social implications and thoughts on accountability, 
-please see the work of Dr. Josh Kroll, PhD., in particular his work on 
-[Accountable Algorithms](StevenRoosa/Machine-Learning-Examples-and-Information/SSRN-id2765268 (2).pdf) which is published in University of Pennsylvania Law Review, Vol. 165, 2017. 
+please see the work of Dr. Josh Kroll, PhD., in particular his work Accountable Algorithms which is published in the University of Pennsylvania Law Review, Vol. 165, 2017. A copy is available above (the SSRN file).
 
 # Copyright and License Info:
 The copyright on the content in this repo, unless otherwise noted, is owned by Steven Roosa, but you are welcome to use it on an AS IS basis, with no warranties, and to have a worldwide, irrevocable, non-exclusive license.
